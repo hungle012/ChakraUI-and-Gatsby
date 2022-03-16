@@ -1,5 +1,5 @@
 .container {
-    /* width: 55%; */
+    width: 55%;
     margin: 2.5rem auto;
     padding: 4rem;
     background-color: #02054B;
@@ -55,8 +55,33 @@
     font-weight: 500;
 }
 
-/* @media screen and (max-width: 739px) {
+
+@media screen and (max-width: 1129px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        padding: 3rem;
+    }  
+ 
+}
+@media screen and (max-width: 739px) {
     .container {
         grid-template-columns: 1fr;
+        width: 70%;
     }    
-} */
+}
+@media screen and (max-width: 529px) {
+    .container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin: auto;
+        padding: 1rem;
+    }   
+    .contact {
+        margin: 1rem;
+        margin-left: 1.5rem;
+    } 
+    .form {
+        margin: 1rem;
+    }
+}
