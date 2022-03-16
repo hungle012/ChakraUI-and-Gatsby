@@ -16,9 +16,17 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@chakra-ui/button": "^1.5.8",
+    "@chakra-ui/gatsby-plugin": "^2.0.4",
+    "@chakra-ui/icon": "^2.0.5",
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "^6.2.8",
     "gatsby": "^4.9.3",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
